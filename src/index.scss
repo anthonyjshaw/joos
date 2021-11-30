@@ -1,0 +1,25 @@
+@import './stylesheets/index';
+
+body {
+	margin: 0;
+	background-image: url('./background-polygons.svg');
+	background-color: #FF8E25;
+}
+
+h1 {
+	font-family: 'Arvo', sans-serif;
+	color: #FFEEEE;
+	font-size: 65px;
+	width: 842px;
+	text-align: center;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+
+.container {
+	margin: auto;
+	width: 75vw;
+}

@@ -1,0 +1,20 @@
+.navbar {
+	display: flex;
+	font-family: sans-serif;
+	justify-content: space-between;
+}
+
+.nav-container {
+	width: 50vw;
+	margin: auto;
+}
+
+.nav-logo {
+	margin: 0 16px;
+	font-size: 24px;
+}
+
+.nav-items {
+	display: flex;
+	align-items: center;
+}
