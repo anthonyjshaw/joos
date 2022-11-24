@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a870f96b.chunk.css",
+    "main.js": "/static/js/main.3b3cf00c.chunk.js",
+    "main.js.map": "/static/js/main.3b3cf00c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e0471efc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e0471efc.js.map",
+    "static/css/2.3f15fd2c.chunk.css": "/static/css/2.3f15fd2c.chunk.css",
+    "static/js/2.6a4aed4e.chunk.js": "/static/js/2.6a4aed4e.chunk.js",
+    "static/js/2.6a4aed4e.chunk.js.map": "/static/js/2.6a4aed4e.chunk.js.map",
+    "static/js/3.05b1e9a9.chunk.js": "/static/js/3.05b1e9a9.chunk.js",
+    "static/js/3.05b1e9a9.chunk.js.map": "/static/js/3.05b1e9a9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.3f15fd2c.chunk.css.map": "/static/css/2.3f15fd2c.chunk.css.map",
+    "static/css/main.a870f96b.chunk.css.map": "/static/css/main.a870f96b.chunk.css.map",
+    "static/js/2.6a4aed4e.chunk.js.LICENSE.txt": "/static/js/2.6a4aed4e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/comfortaa-vietnamese-400-normal.c04c3f9c.woff2",
+    "static/media/index.scss": "/static/media/background-polygons.cb427ef5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0471efc.js",
+    "static/css/2.3f15fd2c.chunk.css",
+    "static/js/2.6a4aed4e.chunk.js",
+    "static/css/main.a870f96b.chunk.css",
+    "static/js/main.3b3cf00c.chunk.js"
+  ]
+}
