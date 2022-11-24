@@ -1,15 +1,13 @@
 import React from 'react';
+import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar';
 
-
 const App = () => {
+	const component = "";
 	return (
 		<>
 		<Navbar />
-		<div className="container">
-			<h1>Creative problems need creative solutions.</h1>
-			<p>At Joos, we strive to give you the best in digital marketing solutions.</p>
-		</div>
+		<LandingPage />
 		</>
 	);
 }

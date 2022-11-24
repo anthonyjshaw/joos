@@ -1,16 +1,36 @@
 @import './stylesheets/index';
 
+
+
+
+@keyframes swipeLeft {
+	0% {transform: translateX(-100%);}
+	100% {transform: translateX(0);}
+  }
+
+
 body {
 	margin: 0;
 	background-image: url('./background-polygons.svg');
 	background-color: #FF8E25;
+	background-repeat: no-repeat;
 }
 
-h1 {
+body::-webkit-scrollbar {
+	width: 0.01em;
+  }
+
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.0);
+  }
+   
+  
+
+h1, h2 {
 	font-family: 'Arvo', sans-serif;
 	color: #FFEEEE;
-	font-size: 65px;
 	width: 842px;
+	font-weight: 100;
 	text-align: center;
 }
 
@@ -18,8 +38,56 @@ p {
 	font-family: sans-serif;
 }
 
-
 .container {
 	margin: auto;
 	width: 75vw;
+}
+
+.section {
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+
+	h1 {
+		animation: swipeLeft 0.5s ease-in-out;
+	}
+	p {
+		width: 883px;
+		font-size: 21px;
+		text-align: center;
+		color: #FFFAFA;
+		font-family: 'Asap';
+	}
+}
+
+.section-img {
+	width: 300px;
+    margin: auto;
+    border-radius: 48px;
+}
+
+.squiggle-container {
+	margin: auto;
+    width: 850px;
+	
+
+}
+
+.squiggle {
+	animation: flip 2s infinite;
+}
+
+
+@keyframes squiggle {
+	to {
+		
+		stroke-dashoffset: -200;
+	}
+}
+
+@keyframes flip {
+	0% {transform: rotateX(0deg);}
+	50% {transform: rotateX(180deg);}
+	75% {transform: rotateX(360deg);}
+	100% { transform: rotateX(0deg);}
 }
