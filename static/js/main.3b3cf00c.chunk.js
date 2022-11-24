@@ -1,0 +1,2 @@
+(this["webpackJsonplanding-page-example"]=this["webpackJsonplanding-page-example"]||[]).push([[0],{4:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t(3),i=t.n(c),l=(t(9),t(10),t(11),t(12),t(13),t(1)),s=Object(a.lazy)((function(){return t.e(3).then(t.bind(null,15))}));i.a.render(Object(l.jsx)(a.Suspense,{fallback:Object(l.jsx)("h1",{children:"Loading..."}),children:Object(l.jsx)(s,{})}),document.getElementById("root"))},9:function(e,n,t){}},[[4,1,2]]]);
+//# sourceMappingURL=main.3b3cf00c.chunk.js.map
